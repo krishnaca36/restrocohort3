@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: url(./images/background.webp);
+
+}
+.header{
+/* background-color: pink; */
+display: block;
+justify-content: center;
+padding: 20px;
+}
+
+.header .nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+    /* background-color: yellow; */
+}
+
+.nav_list a {
+ /* background-color: tan; */
+ color: white;
+ text-decoration: none;
+ list-style-type: none;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+
+.ri-menu-3-fill{
+    color: white;
+}
+.nav .logo_wrapper img{
+    /* background-color: red; */
+    height: 70px;
+}
+.content{
+    /* background-color: black; */
+    display: flex;
+    height: 500px;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    color: rgb(161, 160, 160);
+   
+}
+
+.des{
+    padding: 20px;
+}
+
+.main_logo{
+    /* background-color: red; */
+    size: 20px;
+    padding: 20px;
+}
+.image p{
+    font-size: 20px;
+    margin-top: 100px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+.btn_st{
+    background: linear-gradient(to right, pink, orange);
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.btn_stp{
+    background: transparent;
+    color: white;
+    border: 0,1px solid black;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.image img{
+    height: 400px;
+    margin: 20px auto;
+}
+
+.container{
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    
+    gap: 12px;
+    padding: 12px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 16px;
+    overflow: hidden;
+    
+    /* background-color: pink; */
+}
+.card_img{
+    flex: 1;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+
+}
